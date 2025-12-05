@@ -1,9 +1,8 @@
 body{
     background-color: #A874D2;
     color: #F5F5F5;
+    margin: 0;
 }
-
-
 
 #hamburger {
     display: none;
@@ -58,6 +57,7 @@ h1{
     font-family: "Atkinson Hyperlegible", sans-serif;
     font-weight: 700;
     font-size: 3em;
+    margin: 10px;
 }
 
 .mindyMainScreen{
