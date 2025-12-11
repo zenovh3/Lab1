@@ -65,6 +65,9 @@ h1{
     margin: auto;
 }
 
+nav img{
+    margin: 10px;
+}
 .join{
     display: block;
     width: 200px;
@@ -101,3 +104,94 @@ h2{
     text-align: left;
     display: block;
 }
+
+.activiteiten{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.activiteiten img{
+    display: block;
+    text-align: left;
+}
+
+.merch {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 20px;
+}
+
+.merch > div {
+    width: calc(50% - 20px); 
+    text-align: center;
+}
+
+.contact{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact {
+    padding: 30px;
+    border-radius: 10px;
+    width: 350px; 
+    margin: auto;
+}
+
+.contact h2 {
+    text-align: center;
+    color: white;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.contact label {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.contact input,
+.contact textarea {
+    background-color: white;
+    border: none;
+    padding: 14px 15px;
+    border-radius: 25px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.contact textarea {
+    height: 130px;
+    resize: none;
+    border-radius: 20px;
+}
+
+.contact input[type="submit"] {
+    background-color: white;
+    color: #333;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.contact-image {
+    display: block;
+    width: 80%;
+    margin: 20px auto 0 auto;
+}
+
+footer{
+    text-align: center;
+    margin: 20px;
+    font-size: 14px;
+}
+
+
+
+
