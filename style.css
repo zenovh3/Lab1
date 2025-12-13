@@ -41,7 +41,6 @@ body{
 }
 
 
-@media (max-width: 768px) {
     .nav-links {
         position: absolute;
         top: 70px;
@@ -61,7 +60,7 @@ body{
     .hamburger {
         display: flex;
     }
-}
+
 
 h1{
     font-family: "Atkinson Hyperlegible", sans-serif;
@@ -202,8 +201,97 @@ footer{
     font-size: 14px;
 }
 
+@media (min-width: 768px){
 
+    body {
+        font-size: 18px;
+        color: #F5F5F5;
+    }
 
+    
+    .navbar {
+        padding: 25px 40px;
+    }
 
+    .nav-links {
+        font-size: 18px;
+        color: #F5F5F5;
+    }
 
+    
+    h1 {
+        font-size: 3.5em;
+        margin: 30px 0;
+        text-align: center;
+    }
 
+    h2 {
+        font-size: 2.4em;
+        margin-bottom: 30px;
+    }
+
+    .mindyMainScreen {
+        width: 50%;
+        margin: 40px auto;
+        
+    }
+
+    .join {
+        width: 260px;
+        padding: 14px;
+        font-size: 18px;
+    }
+
+    .kernwaarden {
+        flex-direction: row;
+        gap: 40px;
+        margin: 60px ;
+        width: 80%;
+    }
+
+    .doel,
+    .activiteiten {
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .doel img,
+    .activiteiten img {
+        width: 70%;
+        display: block;
+    }
+
+    .merch {
+        width: 80%;
+        margin: 60px auto;
+    }
+
+    .merch > div {
+        width: calc(50% - 20px);
+    }
+
+    .contact {
+        width: 70%;
+        padding: 40px;
+        margin-top: 60px;
+    }
+
+    .contact h2 {
+        font-size: 2.2em;
+    }
+
+    .contact input,
+    .contact textarea {
+        font-size: 17px;
+    }
+
+    .contact-image {
+        width: 60%;
+    }
+
+    footer {
+        font-size: 15px;
+        margin-top: 50px;
+    }
+}
