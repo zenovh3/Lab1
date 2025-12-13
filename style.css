@@ -295,3 +295,104 @@ footer{
         margin-top: 50px;
     }
 }
+
+@media (min-width: 1024px) {
+
+    .hamburger {
+        display: none;
+    }
+
+    .nav-links {
+        position: static;
+        display: flex;
+        flex-direction: row;
+        background: none;
+        width: auto;
+        gap: 30px;
+    }
+
+    .nav-links a {
+        color: #F5F5F5;
+    }
+
+    h1 {
+         position: relative;
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+         padding: 100px 10%;
+         overflow: hidden;
+}
+    .mindyMainScreen {
+        display: none;
+    }
+    .kernwaarden {
+        justify-content: space-between;
+        width: 60%;
+        margin: 70px auto;
+    }
+    
+    .doel,
+    .activiteiten {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 70%;
+        margin: 80px auto;
+        text-align: left;
+        gap: 80px;
+    }
+
+    .doel img,
+    .activiteiten img {
+        width: 40%;
+        text-align: right;
+    }
+
+    .doel p,
+    .activiteiten p {
+        width: 50%;
+    }
+
+    .activiteiten {
+        flex-direction: row-reverse;
+    }
+
+    .merch {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        width: 70%;
+        margin: 60px auto;
+    }
+
+    .merch > div {
+        width: 22%;
+    }
+
+    .contact {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        gap: 60px;
+        padding: 60px;
+    }
+
+    .contact form {
+        width: 50%;
+    }
+
+    .contact-image {
+        width: 40%;
+        margin: 0;
+    }
+
+    .contact h2 {
+        position: absolute;
+        top: -60px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
