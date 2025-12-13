@@ -11,22 +11,23 @@
 </head>
 <body>
     <header>
-        <nav>
-            <img src="assets/logo.svg" alt="logo">
-            <ul class="navLinks">
-            <li><a href="#">Kernwaarden</a></li>
-            <li><a href="#">Wat is ons doel?</a></li>
-            <li><a href="#">Welke activiteiten organiseren we?</a></li>
-            <li><a href="#">Merch</a></li>
-            <li><a href="#">Vaak gestelde vragen</a></li>
-            <li><a href="#">Contact</a></li>
+        <nav class="navbar">
+        <img src="assets/logo.svg" alt="Logo" class="logo">
+
+        <ul class="nav-links">
+            <li><a href="#kernwaarden">Kernwaarden</a></li>
+            <li><a href="#doel">Doel</a></li>
+            <li><a href="#activiteiten">Activiteiten</a></li>
+            <li><a href="#merch">Merch</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
 
-        <div class="hamburger">
+        <div class="hamburger" id="hamburger">
             <span></span>
             <span></span>
             <span></span>
-        </nav>
+        </div>
+    </nav>
     </header>
     <main>
         <h1>Zin om je mentale gezondheid te trainen?</h1>
@@ -36,7 +37,7 @@
     </div>
         
         <h2>Onze Kernwaarden</h2>
-        <div class="kernwaarden">
+        <div class="kernwaarden" id="kernwaarden">
             <div>
                 <img src="assets/community.svg" alt="Community">
                 <p>Community</p>
@@ -51,13 +52,13 @@
             </div>
         </div>
 
-        <div class="doel">
+        <div class="doel" id="doel">
             <h2>Wat is ons Doel?</h2>
             <p>Veel mensen lopen met stress rond, dit willen wij proberen verminderen met onze activiteiten. We zorgen ervoor dat mensen zich mentaal beter voelen en andere mensen die hetzelfde meemaken leren kennen. </p>
             <img src="assets/klimmen.png" alt="Mensen die klimmen">
         </div>
 
-        <div class="activiteiten">
+        <div class="activiteiten" id="activiteiten">
             <h2>Welke activiteiten organiseren we?</h2>
             <p>We organiseren wekelijks verschillende activiteiten. Enkele voorbeelden van activiteiten zijn: bordspellen spelen, puzzelen... Maar we doen ook wat actievere dingen zoals samen wandelingen of fietstochten maken. Voor mensen die wat meer adrenaline willen voelen doen we ook dingen zoals hoogteparkours,... </p>
             <img src="assets/fiets.png" alt="Mensen die fietsen">
@@ -65,7 +66,7 @@
 
             <h2>Merch</h2>
 
-        <div class="merch">
+        <div class="merch" id="merch">
             <div>
                 <img src="assets/Rectangle 12.png" alt="Mindy Knuffel">
                 <p>Mindy Knuffel</p>
@@ -84,12 +85,9 @@
             </div>
         </div>
 
-        <div class="vragen">
-            <h2>Vaak Gestelde Vragen</h2>
 
-        </div>
 
-        <div class="contact">
+        <div class="contact" id="contact">
     <h2>Contact</h2>
 
     <form>
@@ -135,5 +133,15 @@
         </div>
         <p>Mindletics @ 2025. All rights reserved.</p>
     </footer>
+
+    <script>
+    const hamburger = document.getElementById("hamburger");
+    const navLinks = document.querySelector(".nav-links");
+
+    hamburger.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+    });
+</script>
+
 </body>
 </html>
