@@ -253,13 +253,14 @@ footer{
     .activiteiten {
         width: 80%;
         text-align: center;
-        margin: 0 auto;
+        margin: 80px auto;
     }
 
     .doel img,
     .activiteiten img {
         width: 70%;
         display: block;
+        margin: 0;
     }
 
     .merch {
@@ -302,6 +303,10 @@ footer{
         display: none;
     }
 
+    .start {
+        display: flex;
+    }
+
     .nav-links {
         position: static;
         display: flex;
@@ -322,9 +327,6 @@ footer{
          justify-content: space-between;
          padding: 100px 10%;
          overflow: hidden;
-}
-    .mindyMainScreen {
-        display: none;
     }
     .kernwaarden {
         justify-content: space-between;
@@ -341,6 +343,7 @@ footer{
         margin: 80px auto;
         text-align: left;
         gap: 80px;
+        text-align: center;
     }
 
     .doel img,
@@ -371,7 +374,6 @@ footer{
     }
 
     .contact {
-        display: flex;
         align-items: center;
         justify-content: space-between;
         width: 80%;
@@ -389,10 +391,22 @@ footer{
     }
 
     .contact h2 {
-        position: absolute;
-        top: -60px;
+        position: relative;
         left: 50%;
         transform: translateX(-50%);
     }
+
+    .contact img{
+        display: block;
+        margin: auto;
+    }
+
+    .form{
+        margin-top: 70px;
+        display: flex;
+        flex-direction: row;
+        gap: 80px;
+    }
+
 
 }

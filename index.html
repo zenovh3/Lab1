@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,36 +8,38 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header>
         <nav class="navbar">
-        <img src="assets/logo.svg" alt="Logo" class="logo">
+            <img src="assets/logo.svg" alt="Logo" class="logo">
 
-        <ul class="nav-links">
-            <li><a href="#kernwaarden">Kernwaarden</a></li>
-            <li><a href="#doel">Doel</a></li>
-            <li><a href="#activiteiten">Activiteiten</a></li>
-            <li><a href="#merch">Merch</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
+            <ul class="nav-links">
+                <li><a href="#kernwaarden">Kernwaarden</a></li>
+                <li><a href="#doel">Doel</a></li>
+                <li><a href="#activiteiten">Activiteiten</a></li>
+                <li><a href="#merch">Merch</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
 
-        <div class="hamburger" id="hamburger">
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-    </nav>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
     </header>
     <hr>
     <main>
-    <div>
-        <h1>Zin om je mentale gezondheid te trainen?</h1>
-        <img class="mindyMainScreen" src="assets/mindyMainScreen.svg" alt="mindyMainScreen">
-        <a class="join" href="#contact">Word Lid</a>
-    </div>
-        
+        <div class="start">
+            <h1>Zin om je mentale gezondheid te trainen?</h1>
+            <img class="mindyMainScreen" src="assets/mindyMainScreen.svg" alt="mindyMainScreen">
+        </div>
+            <a class="join" href="#contact">Word Lid</a>
         <h2>Onze Kernwaarden</h2>
         <div class="kernwaarden" id="kernwaarden">
             <div>
@@ -55,17 +58,21 @@
 
         <div class="doel" id="doel">
             <h2>Wat is ons Doel?</h2>
-            <p>Veel mensen lopen met stress rond, dit willen wij proberen verminderen met onze activiteiten. We zorgen ervoor dat mensen zich mentaal beter voelen en andere mensen die hetzelfde meemaken leren kennen. </p>
+            <p>Veel mensen lopen met stress rond, dit willen wij proberen verminderen met onze activiteiten. We zorgen
+                ervoor dat mensen zich mentaal beter voelen en andere mensen die hetzelfde meemaken leren kennen. </p>
             <img src="assets/klimmen.png" alt="Mensen die klimmen">
         </div>
 
         <div class="activiteiten" id="activiteiten">
             <h2>Welke activiteiten organiseren we?</h2>
-            <p>We organiseren wekelijks verschillende activiteiten. Enkele voorbeelden van activiteiten zijn: bordspellen spelen, puzzelen... Maar we doen ook wat actievere dingen zoals samen wandelingen of fietstochten maken. Voor mensen die wat meer adrenaline willen voelen doen we ook dingen zoals hoogteparkours,... </p>
+            <p>We organiseren wekelijks verschillende activiteiten. Enkele voorbeelden van activiteiten zijn:
+                bordspellen spelen, puzzelen... Maar we doen ook wat actievere dingen zoals samen wandelingen of
+                fietstochten maken. Voor mensen die wat meer adrenaline willen voelen doen we ook dingen zoals
+                hoogteparkours,... </p>
             <img src="assets/fiets.png" alt="Mensen die fietsen">
         </div>
 
-            <h2>Merch</h2>
+        <h2>Merch</h2>
 
         <div class="merch" id="merch">
             <div>
@@ -89,37 +96,39 @@
 
 
         <div class="contact" id="contact">
-    <h2>Contact</h2>
+            <div>
+                <h2>Contact</h2>
+            </div>
+            <div class="form">
+                <form>
+                    <div>
+                        <label for="voor">Voornaam</label>
+                        <input id="voor" type="text">
+                    </div>
 
-    <form>
-        <div>
-            <label for="voor">Voornaam</label>
-            <input id="voor" type="text">
+                    <div>
+                        <label for="naam">Achternaam</label>
+                        <input id="naam" type="text">
+                    </div>
+
+                    <div>
+                        <label for="email">E-mail</label>
+                        <input id="email" type="email">
+                    </div>
+
+                    <div>
+                        <label for="bericht">Bericht</label>
+                        <textarea id="bericht"></textarea>
+                    </div>
+
+                    <div>
+                        <input type="submit" value="Verstuur">
+                    </div>
+                </form>
+       
+                <img src="assets/talking.svg" alt="Mindy Talking" class="contact-image">
+            </div>
         </div>
-    
-        <div>
-            <label for="naam">Achternaam</label>
-            <input id="naam" type="text">
-        </div>
-
-        <div>
-            <label for="email">E-mail</label>
-            <input id="email" type="email">
-        </div>
-
-        <div>
-            <label for="bericht">Bericht</label>
-            <textarea id="bericht"></textarea>
-        </div>
-
-        <div>
-            <input type="submit" value="Verstuur">
-        </div>
-    </form>
-
-    <img src="assets/talking.svg" alt="Mindy Talking" class="contact-image">
-</div>
-
     </main>
     <hr>
     <footer>
@@ -137,13 +146,14 @@
     </footer>
 
     <script>
-    const hamburger = document.getElementById("hamburger");
-    const navLinks = document.querySelector(".nav-links");
+        const hamburger = document.getElementById("hamburger");
+        const navLinks = document.querySelector(".nav-links");
 
-    hamburger.addEventListener("click", () => {
-        navLinks.classList.toggle("active");
-    });
-</script>
+        hamburger.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+    </script>
 
 </body>
+
 </html>
